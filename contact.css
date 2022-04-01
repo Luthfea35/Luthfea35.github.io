@@ -1,0 +1,37 @@
+
+.heading{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.heading span{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    border-bottom-style: groove;
+    border-bottom-color: black;
+    border-bottom-width: 7px;
+}
+.contact-title
+{
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact-sub-title
+{
+    color: var(--bg-black-900);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.contact .contact-info-item
+{
+    flex: 0 0 25px;
+    max-width: 25%;
+    text-align:center;
+    display: flex;
+}
+.container
+{
+    text-align: center;
+}

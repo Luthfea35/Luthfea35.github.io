@@ -1,0 +1,40 @@
+
+section{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+.heading{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.heading span{
+    text-transform: uppercase;
+    font-size: 6.5rem;
+    border-bottom-style: groove;
+    border-bottom-color: black;
+    border-bottom-width: 7px;
+}
+.portfolio .box-container img{
+    height: 30rem;
+    width: 55%;
+    object-fit: cover;
+}
+.portfolio .box-container .box h3{
+    margin:1rem 0;
+    font-size: 2rem;
+    font-weight: normal;
+
+}
+.portfolio .box-container .box span{
+    font-size: 1.7rem;
+}
+.portfolio .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(2s0rem, 1fr));
+    gap:1.5rem;
+    align-items: flex-start;
+
+}
